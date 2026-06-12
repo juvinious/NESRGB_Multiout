@@ -1,0 +1,42 @@
+# KiCad backups and autosaves
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+_autosave-*
+*.kicad_sch.lck
+*.kicad_pcb.lck
+~*.lck
+*.lck
+
+# KiCad caches and local state
+fp-info-cache
+*.kicad_prl
+
+# Legacy KiCad (pre-v6) artifacts
+*.bak
+*.bck
+*.cache.lib
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+*.sch-bak
+rescue-backup/
+
+# Netlists and temporary exports
+*.net
+*.tmp
+
+# Fabrication outputs (uncomment if you don't want to track gerbers)
+# gerbers/
+# *.gbr
+# *.drl
+# *.gbrjob
+
+# Python / scripting cruft
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+temp
