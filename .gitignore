@@ -33,6 +33,9 @@ rescue-backup/
 # *.drl
 # *.gbrjob
 
+# Local fabrication outputs (scripts/export-fab.sh)
+fab/
+
 # Python / scripting cruft
 __pycache__/
 

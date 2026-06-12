@@ -1,0 +1,44 @@
+name: Fabrication outputs
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fab:
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:9.0
+      options: --user root
+    steps:
+      - uses: actions/checkout@v4
+
+      # TODO: remove continue-on-error once the remaining ERC waivers
+      # (unused pad warnings) are in place.
+      - name: ERC / DRC
+        continue-on-error: true
+        run: |
+          kicad-cli sch erc --exit-code-violations --output erc.rpt NESRGB_AV_MultiOut.kicad_sch
+          kicad-cli pcb drc --exit-code-violations --output drc.rpt NESRGB_AV_MultiOut.kicad_pcb
+
+      - name: Generate fabrication files
+        run: ./scripts/export-fab.sh --version "${GITHUB_REF_NAME}"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: fab-${{ github.ref_name }}
+          path: fab/
+
+      - name: Attach to release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            fab/NESRGB_AV_MultiOut-*-JLCPCB.zip
+            fab/BOM.csv
+            fab/images/*.png
