@@ -3,9 +3,9 @@
 [![Design checks](https://github.com/juvinious/NESRGB_Multiout/actions/workflows/checks.yml/badge.svg)](https://github.com/juvinious/NESRGB_Multiout/actions/workflows/checks.yml)
 [![Fabrication outputs](https://github.com/juvinious/NESRGB_Multiout/actions/workflows/fabrication.yml/badge.svg)](https://github.com/juvinious/NESRGB_Multiout/actions/workflows/fabrication.yml)
 
-NES Multiout for use with Tim Worthington's NES RGB mod
+NES Multiout for use with Tim Worthington's NES RGB mod v5.
 
-Pads were laid out to match the NES RGB layout, removing the need to look at a wiring diagram and contort multiple wires to reach the correct pin.
+Same FCC connector that NES RGB uses to match up to the main board. The FCC Connector is 18 positions, [LCSC Part #: C262640](https://www.lcsc.com/product-detail/C262640.html?s_z=n_q_AFC07-S18ECA-00&spm=wm.fly.bg.0.xh&lcsc_vid=RlQIVgJfQwVcBlxQQVAKAl0DQ1BdA1ZSFQAIAlwFRlIxVlNeRlNeUFFWRVhcXjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D).
 
 **Top**
 
