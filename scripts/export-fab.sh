@@ -5,6 +5,7 @@
 #   gerbers/   gerber layers + excellon drill (JLCPCB-compatible naming)
 #   images/    raytraced top/bottom board renders
 #   BOM.csv    bill of materials in JLCPCB column format
+#   CPL.csv    component placement (pick and place) in JLCPCB column format
 #   NESRGB_AV_MultiOut-<version>-JLCPCB.zip   gerbers+drill, ready to upload
 #
 # Usage: scripts/export-fab.sh [-o OUTDIR] [-v VERSION] [--check]
@@ -61,6 +62,20 @@ kicad-cli sch export bom --output "$OUTDIR/BOM.csv" \
   --fields 'Value,Reference,Footprint,LCSC,${QUANTITY},${DNP}' \
   --labels 'Comment,Designator,Footprint,LCSC Part #,Qty,DNP' \
   --group-by 'Value,Footprint' --exclude-dnp "$SCH"
+
+echo "== CPL (placement) =="
+kicad-cli pcb export pos --output "$OUTDIR/cpl-raw.csv" \
+  --format csv --units mm --exclude-dnp "$PCB"
+python3 - "$OUTDIR/cpl-raw.csv" "$OUTDIR/CPL.csv" <<'PYEOF'
+import csv, sys
+with open(sys.argv[1]) as fin, open(sys.argv[2], 'w', newline='') as fout:
+    w = csv.writer(fout)
+    w.writerow(['Designator', 'Mid X', 'Mid Y', 'Layer', 'Rotation'])
+    for row in csv.DictReader(fin):
+        w.writerow([row['Ref'], row['PosX'], row['PosY'],
+                    row['Side'].capitalize(), row['Rot']])
+PYEOF
+rm "$OUTDIR/cpl-raw.csv"
 
 echo "== Renders =="
 kicad-cli pcb render --side top --quality high --background opaque \

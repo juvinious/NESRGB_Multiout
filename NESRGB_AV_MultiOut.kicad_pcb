@@ -137,7 +137,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa96b261-e64d-433c-9732-af922ebf2e1e")
@@ -149,7 +149,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98b86472-e1a0-4622-a8b2-32a860fd5e75")
@@ -163,6 +163,7 @@
 		(path "/2d8d9345-5806-4444-b7f4-1c5eacbc6126")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -210,7 +211,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7cf7ac58-5b8b-48d4-8c37-c630def44401")
@@ -222,7 +223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a293be9-6015-4477-95c9-f8bacce48ddb")
@@ -236,6 +237,7 @@
 		(path "/43e49828-0c6e-445c-8c56-88e26042a0f8")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -301,6 +303,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
 			(size 2.54 2.54)
@@ -343,7 +346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a54638e1-d1ad-450c-978a-b254b2a28779")
@@ -355,7 +358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a1ee1bee-aedb-40c1-9e5c-580272e6bca5")
@@ -369,6 +372,7 @@
 		(path "/84bb08f2-6fde-4608-b213-c9792f2db54c")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -416,7 +420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed1e0cff-da20-41e3-910f-61ea674735a0")
@@ -428,7 +432,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0fb283c8-be88-4b7b-8dcd-4bdb9cacc728")
@@ -442,6 +446,7 @@
 		(path "/f25ef88b-a301-4bd5-941b-400c0f88436a")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -489,7 +494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e3eba99-0280-4af7-abbd-d5b3d8802ab0")
@@ -501,7 +506,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ef8464d8-ca41-49d8-a6c2-2f275fffab03")
@@ -515,6 +520,7 @@
 		(path "/3cc173d9-7f1e-422e-9cce-137e632c0f56")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -974,7 +980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "542914c1-e722-4815-a0f4-33a1418c9b4d")
@@ -986,7 +992,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "01f0061a-6136-4c4a-86b4-ba82d41b381c")
@@ -1000,6 +1006,7 @@
 		(path "/005352f6-05a3-471e-b19c-a577d9dd68f8")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 270)
 			(size 2.032 8.89)
@@ -1075,6 +1082,7 @@
 		(path "/4d794942-618e-49fc-8e7b-e06d98215504")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)
@@ -1150,6 +1158,7 @@
 		(path "/78fe2a08-a546-4c2b-aa33-eb51f1212645")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)
@@ -1225,6 +1234,7 @@
 		(path "/0607d95e-352e-43e6-991d-d4f042cec6b0")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)
@@ -1300,6 +1310,7 @@
 		(path "/00ff4cbe-0303-4bbb-8bdf-6f0fdbc84154")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)
@@ -1375,6 +1386,7 @@
 		(path "/d9bac740-2371-4759-aca3-be7f65285c85")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)
@@ -1450,6 +1462,7 @@
 		(path "/26a73e39-084b-4578-9274-4c9417233e66")
 		(sheetname "/")
 		(sheetfile "NESRGB_AV_MultiOut.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "1" smd rect
 			(at 0 0 90)
 			(size 2.032 8.89)

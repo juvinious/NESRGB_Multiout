@@ -38,4 +38,5 @@ jobs:
           files: |
             fab/NESRGB_AV_MultiOut-*-JLCPCB.zip
             fab/BOM.csv
+            fab/CPL.csv
             fab/images/*.png
