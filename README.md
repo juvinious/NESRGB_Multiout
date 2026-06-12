@@ -5,10 +5,10 @@ Pads were laid out to match the NES RGB layout, removing the need to look at a w
 
 **Top**
 
-![board top view](./nesrgb_multiout_top.png)
+![board top view](./docs/nesrgb_multiout_top.png)
 
 
 
 **Bottom**
 
-![board bottom view](./nesrgb_multiout_bottom.png)
+![board bottom view](./docs/nesrgb_multiout_bottom.png)
