@@ -5,13 +5,19 @@ Pads were laid out to match the NES RGB layout, removing the need to look at a w
 
 **Top**
 
-![board top view](./docs/nesrgb_multiout_top.png)
-
-
+![board top view](./docs/NESRGB_AV_MultiOut-top.png)
 
 **Bottom**
 
-![board bottom view](./docs/nesrgb_multiout_bottom.png)
+![board bottom view](./docs/NESRGB_AV_MultiOut-bottom.png)
+
+## Origin and attribution
+
+This project began as a fork of [zaxour's NESRGB_Multiout](https://github.com/zaxour/NESRGB_Multiout),
+which was published without a license. This repository is an independent
+re-implementation in KiCad: the design was converted from the original Eagle
+files, the layout reworked, and an FFC connector added. The original Eagle
+files and the 2021 gerbers are available from zaxour's repository.
 
 ## License
 
