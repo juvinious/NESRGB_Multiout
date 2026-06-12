@@ -1,0 +1,2125 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "64819fdb-b58a-4f4b-8e14-6b6ab8fe688f")
+	(paper "A4")
+	(lib_symbols
+		(symbol "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PAD"
+				(at -1.143 1.8542 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.143 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD PAD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMD_PADNIN_AV_1_0"
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:AFC07-S18ECA-00"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X1"
+				(at 10.16 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AFC07-S18ECA-00"
+				(at 7.62 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C262640_FPC-SMD_AFC07-S18ECA-00"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC07-S18ECA-00_C262640.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "AFC07-S18ECA-00"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C262640"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "JS(钜硕电子)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AFC07-S18ECA-00_1_1"
+				(rectangle
+					(start -2.54 24.13)
+					(end 5.08 -24.13)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -1.27 22.86)
+					(radius 0.381)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 21.59 0)
+					(length 2.54)
+					(name "AO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 19.05 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 16.51 0)
+					(length 2.54)
+					(name "AO"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 13.97 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 11.43 0)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 8.89 0)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 6.35 0)
+					(length 2.54)
+					(name "+5V"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -3.81 0)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -6.35 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -8.89 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -11.43 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -13.97 0)
+					(length 2.54)
+					(name "CS#"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -16.51 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -19.05 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -21.59 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 26.67 270)
+					(length 2.54)
+					(name "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -26.67 90)
+					(length 2.54)
+					(name "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "BOTTOM"
+		(exclude_from_sim no)
+		(at 190.246 58.166 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "eced3270-a704-42e5-8b30-cf794cd22193")
+	)
+	(text "TOP"
+		(exclude_from_sim no)
+		(at 69.85 60.198 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed5ba762-89e9-47c4-aaa9-e21cd911742f")
+	)
+	(junction
+		(at 121.92 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1729f095-59df-4a6c-a98e-1e12f6677995")
+	)
+	(junction
+		(at 147.32 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81cbcade-249b-4709-a761-248b78a8a962")
+	)
+	(junction
+		(at 134.62 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "936216a1-0144-4046-85ea-c193d438c6ef")
+	)
+	(junction
+		(at 139.7 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0ffd4f-9eb4-4e4b-91b3-cfccf4c29871")
+	)
+	(no_connect
+		(at 114.3 55.88)
+		(uuid "419d0dc0-7c31-4793-a5b2-643be2ad4c4f")
+	)
+	(no_connect
+		(at 167.64 55.88)
+		(uuid "830644c5-7253-416b-a818-241b9b88f4da")
+	)
+	(wire
+		(pts
+			(xy 134.62 71.12) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "03d097f6-836e-44e1-bf06-914afc7b6f03")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 215.9 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "12e75636-2531-4f84-8cba-5beb3ae9cc3d")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "159e12da-6486-48b2-af29-52892e1aa855")
+	)
+	(wire
+		(pts
+			(xy 170.18 68.58) (xy 160.02 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2093c8a6-2b2a-43af-b1cf-59a6652e12fa")
+	)
+	(wire
+		(pts
+			(xy 144.78 64.77) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "282cf62b-0059-4e75-82df-c2c758e7ae4d")
+	)
+	(wire
+		(pts
+			(xy 139.7 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c30d5de-7cb1-46a2-8808-99e952e3a2cc")
+	)
+	(wire
+		(pts
+			(xy 52.07 114.3) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2c71e987-3d47-48bb-b399-ec042202673f")
+	)
+	(wire
+		(pts
+			(xy 147.32 71.12) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2ca46547-d8ba-4d96-8f66-073aafa86abe")
+	)
+	(wire
+		(pts
+			(xy 160.02 68.58) (xy 160.02 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d307702-62b1-4316-8bff-dbb986611a67")
+	)
+	(wire
+		(pts
+			(xy 52.07 105.41) (xy 154.94 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2fbbece9-4013-4afc-95ff-1d2057fb20ba")
+	)
+	(wire
+		(pts
+			(xy 152.4 71.12) (xy 147.32 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "325b7317-7e07-4aa0-8813-d85e079d3d3b")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3378e077-49fc-4aaf-bff7-c1d560094871")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dd8745-46d7-4617-bec0-4a8df438e818")
+	)
+	(wire
+		(pts
+			(xy 52.07 87.63) (xy 144.78 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "397f73e4-b15f-4ed6-bd53-64c52fdb01e9")
+	)
+	(wire
+		(pts
+			(xy 132.08 71.12) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fb8bb4a-a77e-45fd-ab77-c675236bffb6")
+	)
+	(wire
+		(pts
+			(xy 124.46 64.77) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bd97db4-f8d8-4593-be1b-e7bcc347e13f")
+	)
+	(wire
+		(pts
+			(xy 52.07 78.74) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4d06b0d2-8e9e-4fd9-8cdb-8d22fef77dbb")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 139.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5093195a-1380-4fa7-a816-eea7513df012")
+	)
+	(wire
+		(pts
+			(xy 154.94 105.41) (xy 154.94 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f329517-2104-471e-af05-2dc1e471bb6a")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 215.9 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64cf3f26-a075-4e40-84b4-ae0930032f53")
+	)
+	(wire
+		(pts
+			(xy 139.7 64.77) (xy 142.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64cfe350-d2bf-4b61-9d31-4755bc7f3382")
+	)
+	(wire
+		(pts
+			(xy 52.07 69.85) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6df90ed8-bbcf-4733-b07f-c829feccc17d")
+	)
+	(wire
+		(pts
+			(xy 162.56 64.77) (xy 162.56 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8318f1f8-020d-4076-9f95-535513ac1c55")
+	)
+	(wire
+		(pts
+			(xy 149.86 64.77) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a0e0f7-d36a-48e2-b6f0-068cfb2a4c88")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9aa55a31-e817-4d26-9446-70172ffdca6a")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 215.9 105.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ed2f7eb-b1ed-426b-a198-14ef46d5d5b5")
+	)
+	(wire
+		(pts
+			(xy 137.16 64.77) (xy 139.7 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f4517b1-de69-4159-aaff-0f38dabaacc1")
+	)
+	(wire
+		(pts
+			(xy 176.53 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f95cf7a-efa7-44bd-926c-b3edba548d33")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 127 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28cb506-7028-4c31-93c6-2ed7fbf0add7")
+	)
+	(wire
+		(pts
+			(xy 113.03 64.77) (xy 119.38 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2f669b7-ff41-4fd3-9e11-ef6ddf8a8a46")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a408a44e-145d-484e-9cc9-b09bbb9b5b01")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 176.53 46.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a71ac1f6-f408-49dc-bd7b-1f6512b959a1")
+	)
+	(wire
+		(pts
+			(xy 157.48 72.39) (xy 157.48 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a7be0f33-db75-4ad8-8dd3-f5b4b4114104")
+	)
+	(wire
+		(pts
+			(xy 152.4 64.77) (xy 152.4 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9073efb-c5af-4c2d-bbfd-1dfbb1333b28")
+	)
+	(wire
+		(pts
+			(xy 52.07 96.52) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab28ecae-2c07-4591-a92b-9058c74242ba")
+	)
+	(wire
+		(pts
+			(xy 176.53 69.85) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae51ee17-4c30-4f5b-aaa9-1f332db3ebfc")
+	)
+	(wire
+		(pts
+			(xy 129.54 64.77) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b6b21bb6-9abb-4e38-99e1-7e170c18d4e3")
+	)
+	(wire
+		(pts
+			(xy 149.86 87.63) (xy 182.88 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e95c8f-ce4c-4c54-9ecd-6b0ed954ccc7")
+	)
+	(wire
+		(pts
+			(xy 121.92 67.31) (xy 121.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b0f9f5-00f2-4a9b-91b4-81b280800906")
+	)
+	(wire
+		(pts
+			(xy 175.26 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c72e6e9a-036d-4c31-9a9b-ba499637fafc")
+	)
+	(wire
+		(pts
+			(xy 121.92 64.77) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7a3b458-3408-4e91-a1c4-972a47221f53")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 134.62 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7f5c7d3-ca70-49d0-99a3-c28ea48bb5bb")
+	)
+	(wire
+		(pts
+			(xy 134.62 78.74) (xy 215.9 78.74)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "de9c79a5-21e8-43c3-b962-74d0ebf36553")
+	)
+	(wire
+		(pts
+			(xy 132.08 64.77) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2b6172-c668-4594-8cc0-a48661e9b11b")
+	)
+	(wire
+		(pts
+			(xy 170.18 114.3) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4e4f275-d142-4dc3-8817-fd767d91aa08")
+	)
+	(label "GND"
+		(at 62.23 96.52 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "016a13c0-de40-4eb0-bae7-d832e0b564ed")
+	)
+	(label "CVBS"
+		(at 62.23 78.74 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "14ca8385-bc0d-4fa0-ae0d-5dbb588b7b4e")
+	)
+	(label "+5V"
+		(at 203.2 78.74 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a82383c-ab94-4dba-883c-4ad7e99786ab")
+	)
+	(label "BLUE"
+		(at 203.2 105.41 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "30fa1af4-59c7-46b0-82db-65178b33af71")
+	)
+	(label "C"
+		(at 203.2 87.63 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "39ba49dc-03b6-42a0-a562-3503f1eb5ecb")
+	)
+	(label "GND"
+		(at 203.2 96.52 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d5a03d5-9754-40be-8481-b56deec2df1e")
+	)
+	(label "MONO_AUD"
+		(at 196.85 69.85 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f77a00b-30dd-4474-893c-6c9ecee60329")
+	)
+	(label "CSYNC"
+		(at 62.23 105.41 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "78dc5266-08cd-487d-8061-3194a5b65978")
+	)
+	(label "MONO_AUD"
+		(at 64.77 69.85 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "c766ba67-0093-41d2-b9de-9e73c3df01be")
+	)
+	(label "GREEN"
+		(at 203.2 114.3 0)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "d94c1863-6e26-479f-a792-46812d03b39e")
+	)
+	(label "RED"
+		(at 62.23 114.3 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "f63d5744-3547-4cf9-81a4-37b4f0b94671")
+	)
+	(label "Y"
+		(at 62.23 87.63 180)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "f82f79ab-e29a-4baa-917d-a5a7c45b67a5")
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "005352f6-05a3-471e-b19c-a577d9dd68f8")
+		(property "Reference" "PAD1"
+			(at 48.387 67.9958 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 73.152 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0cfe321-950a-45cb-8e03-1b98da106a48")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 105.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00ff4cbe-0303-4bbb-8bdf-6f0fdbc84154")
+		(property "Reference" "PAD11"
+			(at 219.583 107.2642 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 102.108 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87452dc7-6329-4d08-9803-812e6fe6703d")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0607d95e-352e-43e6-991d-d4f042cec6b0")
+		(property "Reference" "PAD12"
+			(at 219.583 116.1542 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 110.998 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "912f65d2-e69c-4de1-a089-b6cb58345c96")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 69.85 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26a73e39-084b-4578-9274-4c9417233e66")
+		(property "Reference" "PAD7"
+			(at 219.583 71.7042 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 66.548 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a38f4efd-fce4-4d91-8ba9-76f563637032")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d8d9345-5806-4444-b7f4-1c5eacbc6126")
+		(property "Reference" "PAD4"
+			(at 48.387 94.6658 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 99.822 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34dd0400-edec-4ee8-aec4-1ef84ec6a982")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3cc173d9-7f1e-422e-9cce-137e632c0f56")
+		(property "Reference" "PAD6"
+			(at 48.387 112.4458 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 117.602 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1830067-ce8d-4a69-90d8-ab933d8e8b4b")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43e49828-0c6e-445c-8c56-88e26042a0f8")
+		(property "Reference" "PAD5"
+			(at 48.387 103.5558 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 108.712 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e463ea2-fd77-48cd-899e-d9258b7ff4d4")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:AFC07-S18ECA-00")
+		(at 140.97 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "498ba1a0-43b9-4e4e-b240-84502b97ed16")
+		(property "Reference" "X1"
+			(at 140.97 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AFC07-S18ECA-00"
+			(at 140.97 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C262640_FPC-SMD_AFC07-S18ECA-00"
+			(at 151.13 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_JUSHUO-AFC07-S18ECA-00_C262640.pdf"
+			(at 140.843 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "AFC07-S18ECA-00"
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C262640"
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JS(钜硕电子)"
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "3ef8d7ce-37e5-4781-beca-bb959d3ed805")
+		)
+		(pin "14"
+			(uuid "8eb3b72f-80ad-428f-aaf3-cc17685fa658")
+		)
+		(pin "15"
+			(uuid "64f1f25c-d48e-489a-81b3-60b3c10cb08f")
+		)
+		(pin "16"
+			(uuid "2e11809e-5c63-45ca-a356-2832b2c3af86")
+		)
+		(pin "17"
+			(uuid "de89c7da-ca38-464b-9ae1-28df6b3dd03d")
+		)
+		(pin "18"
+			(uuid "b921f063-b748-41a9-b691-fcc8d0cc1947")
+		)
+		(pin "19"
+			(uuid "6ba18eaa-783e-431e-affd-d732d8cdd1d5")
+		)
+		(pin "20"
+			(uuid "497c6397-b028-416d-a5b4-ba08e1332d48")
+		)
+		(pin "7"
+			(uuid "bf8a6d20-fd40-4686-a184-4191bac4b5cf")
+		)
+		(pin "6"
+			(uuid "f3736fcf-436f-4736-8aaa-e7140b3db789")
+		)
+		(pin "5"
+			(uuid "e7d58da3-750c-4b09-99ee-7769e74a79fb")
+		)
+		(pin "1"
+			(uuid "f53fde9c-a98b-4092-bd16-b5fc05cde34f")
+		)
+		(pin "9"
+			(uuid "3cf47ede-c32a-499b-ad67-e1d695c65855")
+		)
+		(pin "10"
+			(uuid "eb32bc14-8638-412d-ba10-161fe6c14866")
+		)
+		(pin "11"
+			(uuid "bccba972-a917-4149-a3d6-068f313f8dc7")
+		)
+		(pin "12"
+			(uuid "dd4240a9-da4b-45e6-83dc-5e8f3f1f2eff")
+		)
+		(pin "4"
+			(uuid "4ae77390-61e8-4b3b-9a5c-a24bc9167f6e")
+		)
+		(pin "2"
+			(uuid "ecbd5548-2d13-45a9-9ffd-8687ac109e77")
+		)
+		(pin "3"
+			(uuid "4921da18-e0a8-4d55-8456-056641b4e80f")
+		)
+		(pin "8"
+			(uuid "acef3ed7-0a44-4163-9eb4-57073f5b0e01")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d794942-618e-49fc-8e7b-e06d98215504")
+		(property "Reference" "PAD9"
+			(at 219.583 89.4842 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 84.328 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f96445c-a10c-40e9-8d4a-162c5d856a58")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78fe2a08-a546-4c2b-aa33-eb51f1212645")
+		(property "Reference" "PAD8"
+			(at 219.583 80.5942 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 75.438 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68111176-e830-475e-9bfe-2bb2a15fb857")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84bb08f2-6fde-4608-b213-c9792f2db54c")
+		(property "Reference" "PAD3"
+			(at 48.387 85.7758 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 90.932 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "644fde93-5529-4999-a300-99559c651a93")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 218.44 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9bac740-2371-4759-aca3-be7f65285c85")
+		(property "Reference" "PAD10"
+			(at 219.583 98.3742 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 219.583 93.218 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee23ad87-d34e-46dd-a727-337a65ab4718")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NESRGB_AV_MultiOut-eagle-import:SMD_PADNIN_AV")
+		(at 49.53 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f25ef88b-a301-4bd5-941b-400c0f88436a")
+		(property "Reference" "PAD2"
+			(at 48.387 76.8858 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SMD_PADNIN_AV"
+			(at 48.387 82.042 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "NESRGB_AV_MultiOut:SMD_NINAV"
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa6e7cf4-7104-4403-82e9-76f9494625f3")
+		)
+		(instances
+			(project "NESRGB_AV_MultiOut"
+				(path "/64819fdb-b58a-4f4b-8e14-6b6ab8fe688f"
+					(reference "PAD2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
