@@ -48,8 +48,8 @@ fi
 
 echo "== Gerbers =="
 kicad-cli pcb export gerbers --output "$OUTDIR/gerbers/" \
-  --layers F.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts \
-  --subtract-soldermask "$PCB"
+  --layers F.Cu,B.Cu,F.Paste,B.Paste,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,Edge.Cuts \
+  "$PCB"
 
 echo "== Drill =="
 kicad-cli pcb export drill --output "$OUTDIR/gerbers/" \
